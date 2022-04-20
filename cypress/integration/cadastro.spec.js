@@ -20,7 +20,8 @@ describe('Cadastro', () => {
                 complemento: 'Apto 102',
                 bairro: 'Itaim Bibi',
                 cidade_uf: 'São Paulo/SP'
-            }
+            },
+            metodo_entrega: 'Bicicleta'
         }
 
         cy.get("input[name='name']").type(entregador.nome)
@@ -37,5 +38,7 @@ describe('Cadastro', () => {
         cy.get("input[name='address']").should('have.value', entregador.endereco.rua)
         cy.get("input[name='district']").should('have.value', entregador.endereco.bairro)
         cy.get("input[name='city-uf']").should('have.value', entregador.endereco.cidade_uf)
+
+        cy.contains(".delivery-method li", entregador.metodo_entrega).click()
     });
 });
