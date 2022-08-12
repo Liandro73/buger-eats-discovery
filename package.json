@@ -9,7 +9,7 @@
   "author": "Dernival Liandro",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^9.5.4",
+    "cypress": "^10.4.0",
     "cypress-file-upload": "^5.0.8"
   }
 }
