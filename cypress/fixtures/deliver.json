@@ -1,0 +1,34 @@
+{
+    "signup": {
+        "name": "Dernival Liandro",
+        "cpf": "00000000041",
+        "email": "teste@teste.com",
+        "whatsapp": "61999999999",
+        "address": {
+            "postalcode": "04534011",
+            "street": "Rua Joaquim Floriano",
+            "number": "1000",
+            "details": "Apto 102",
+            "district": "Itaim Bibi",
+            "city_state": "São Paulo/SP"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "cpf_invalido": {
+        "name": "Pedro Teste",
+        "cpf": "X00000141AA",
+        "email": "pedro@teste.com",
+        "whatsapp": "61999999999",
+        "address": {
+            "postalcode": "04534011",
+            "street": "Rua Joaquim Floriano",
+            "number": "1000",
+            "details": "Apto 102",
+            "district": "Itaim Bibi",
+            "city_state": "São Paulo/SP"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    }
+}
