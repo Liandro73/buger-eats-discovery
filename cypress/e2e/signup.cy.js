@@ -1,6 +1,6 @@
 import signup from '../pages/SignupPage'
 
-describe('Cadastro', () => {
+describe('Signup', () => {
 
     beforeEach(function () {
         cy.fixture('deliver').then((d) => {
@@ -8,7 +8,7 @@ describe('Cadastro', () => {
         })
     })
 
-    it('Usuário deve se tornar um entregador', function () {
+    it('User should be deliver', function () {
 
         const expectedMessage = 'Recebemos os seus dados. Fique de olho na sua caixa de email, pois e em breve retornamos o contato.'
 
@@ -19,7 +19,7 @@ describe('Cadastro', () => {
 
     });
 
-    it('CPF incorreto', function () {
+    it('Incorrect document', function () {
         cy.viewport(1920, 1080)
         cy.visit('https://buger-eats.vercel.app/')
 
