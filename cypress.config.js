@@ -4,7 +4,7 @@ module.exports = defineConfig({
   e2e: {
     "viewportWidth": 1920,
     "viewportHeight": 1080,
-    "baseUrl": "https://buger-eats.vercel.app",
+    "baseUrl": "https://buger-eats-qa.vercel.app",
     // We've imported your old cypress plugins here.
     // You may want to clean this up later by importing these.
     setupNodeEvents(on, config) {

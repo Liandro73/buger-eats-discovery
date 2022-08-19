@@ -20,16 +20,22 @@ describe('Signup', () => {
     });
 
     it('Incorrect document', function () {
-        cy.viewport(1920, 1080)
-        cy.visit('https://buger-eats.vercel.app/')
-
-        cy.get("a[href='/deliver']").click();
-        cy.get('#page-deliver form h1').should('have.text', 'Cadastre-se para  fazer entregas')
 
         const expectedMessage = 'Oops! CPF inválido'
 
         signup.go()
         signup.fillForm(this.deliver.cpf_invalido)
+        signup.submit()
+        signup.alertMessageShouldBe(expectedMessage)
+
+    });
+
+    it('Incorrect email', function () {
+
+        const expectedMessage = 'Oops! Email com formato inválido.'
+
+        signup.go()
+        signup.fillForm(this.deliver.email_invalido)
         signup.submit()
         signup.alertMessageShouldBe(expectedMessage)
 

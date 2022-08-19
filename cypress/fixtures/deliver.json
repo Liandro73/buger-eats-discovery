@@ -30,5 +30,21 @@
         },
         "delivery_method": "Moto",
         "cnh": "cnh-digital.jpg"
+    },
+    "email_invalido": {
+        "name": "Dernival Liandro",
+        "cpf": "00000000041",
+        "email": "dernival.teste.com",
+        "whatsapp": "61999999999",
+        "address": {
+            "postalcode": "04534011",
+            "street": "Rua Joaquim Floriano",
+            "number": "1000",
+            "details": "Apto 102",
+            "district": "Itaim Bibi",
+            "city_state": "São Paulo/SP"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
     }
 }
