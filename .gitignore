@@ -112,5 +112,7 @@ dist
 .DS_Store
 
 # Evidencies
+*/screenshots
+*/videos
 *.mp4
 *.png
