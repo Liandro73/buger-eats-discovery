@@ -110,3 +110,7 @@ dist
 
 # Mac
 .DS_Store
+
+# Evidencies
+*.mp4
+*.png
